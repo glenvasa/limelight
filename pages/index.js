@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Dashboard from "../components/Dashboard";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
         <title>LimeLight</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Home Page</h1>
+     <Dashboard />
     </div>
   );
 }
